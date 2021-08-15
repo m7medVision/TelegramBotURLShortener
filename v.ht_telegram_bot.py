@@ -2,11 +2,7 @@ from pyrogram import Client,filters
 from pyrogram import *
 import requests
 import config
-app = Client("my_bot",
-            BOT_TOKEN = config.BOT_TOKEN
-            APP_ID = config.APP_ID
-            API_HASH = config.API_HASH
-            )
+app = Client("my_bot")
 @app.on_message(filters.command(commands="vht",prefixes="."))
 def start_command(client, message):
     app.send_message(chat_id=message.chat.id, text="plase wait") 
