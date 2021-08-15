@@ -9,10 +9,5 @@
   "website": "https://majhcc.xyz/",
   "repository": "https://github.com/majhcc/TelegramBotURLShortener/",
   "logo": "ttps://c.top4top.io/p_2047lr4wi1.png",
-  "env": {
-    "SECRET_TOKEN": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
-      "generator": "secret"
-    }
   }
 
