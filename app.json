@@ -1,13 +1,27 @@
 {
-  "name": "Shortener URL telegram bot",
-  "description": "This Telegram bot short your URL via v.ht site",
-  "keywords": [
-    "productivity",
-    "HTML5",
-    "scalpel"
-  ],
-  "website": "https://majhcc.xyz/",
-  "repository": "https://github.com/majhcc/TelegramBotURLShortener/",
+  "name": "Shortener URL Bot",
+  "description": "This Telegram bot short your URL via v.ht site ",
   "logo": "ttps://c.top4top.io/p_2047lr4wi1.png",
-  }
+  "keywords": [
+    "Youtube","YoutubeDownloader"
+  ],
+  "repository": "https://github.com/majhcc/TelegramBotURLShortener",
+  "website": "https://majhcc.xyz/",
+  "env": {
+        "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
+        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
+        "BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true}
+  },
+      "buildpacks": [
+        {"url": "heroku/python"}
+    ],
+  "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+      "stack": "heroku-20"
 
+
+}
