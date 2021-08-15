@@ -1,0 +1,16 @@
+{
+  "name": "shortener URL Telegram bot",
+  "description": "This Telegram bot short your URL via v.ht site",
+  "keywords": [
+    "productivity",
+    "HTML5",
+    "scalpel"
+  ],
+  "website": "https://majhcc.xyz/",
+  "repository": "https://github.com/majhcc/TelegramBotURLShortener",
+  "logo": "https://c.top4top.io/p_2047lr4wi1.png",
+  },
+  "env": {
+    "Bot_TOKEN": {
+
+    },
